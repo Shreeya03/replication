@@ -1,0 +1,807 @@
+<html>
+<head>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<style>
+header{
+  background-color:#ff9d5c;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  margin:0 -10px;
+  padding:0 10px;
+  z-index:2;
+}
+.b1{
+  font-size:40px;
+  padding:20px;
+  font-weight: bold;
+}
+.c1{
+  border:2px solid white;
+  padding:15px;
+  border-radius:40px;
+  font-weight: bold;
+  transition:background-color 1s;
+}
+.c1:hover{
+  color:#ff9d5c;
+  background-color:white;
+}
+
+a{
+  text-decoration:none;
+  color:white;
+}
+ul{
+   list-style-type:none;
+}
+.a4{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+
+ }
+#nav{
+  display:flex;
+  wrap:nowrap;
+}
+.t1,.t123{
+  margin:20px;
+
+  
+}
+
+
+.t123 {
+  position: relative;
+  display: inline-block;
+}
+
+.sub {
+  color:#ff9d5c;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width:200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  
+}
+.sub1{
+  color:#ff9d5c;
+  padding:10px;
+}
+
+.t123:hover .sub {
+  display: block;
+}
+.t1:hover{
+  text-decoration:underline;
+  text-decoration-thickness: 2px;
+}
+.t123:hover{
+  text-decoration:underline;
+  text-decoration-thickness: 2px;
+}
+body{
+  background-color:#ff9d5c;
+}
+h1{
+  color:white;
+}
+.a13{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap:wrap;
+  margin:150px 0;
+}
+.b11,.a14{
+  margin:0 70px;
+}
+.b12{
+  font-size:30px
+}
+.a21{
+  color:white;
+}
+.a23{
+  display:flex;
+ 
+  justify-content: space-around;
+  flex-wrap:wrap;
+  font-size:40px;
+}
+.b26{
+  text-align:center;
+  padding:20px;
+  
+}
+.z1{
+  background-color:white;
+  margin:-10px;
+  padding:10px;
+}
+.z8{
+  width:30%;
+  font-size:20px;
+  color:black;
+  padding:100px;
+  border:0px solid #ff9d5c;
+  float:left;
+  
+}
+.z8:hover{
+  box-shadow: 0px 30px 40px rgba(255, 129, 0, 0.2);
+}
+#z82,#z84{
+  border-left:1px solid grey;
+  padding-left:100px;
+  margin-left:-120px;
+}
+#z81,#z83{
+  margin-right:-1px;
+  padding-right:180px;
+}
+#z81,#z82{
+  border-bottom:1px solid grey;
+}
+.z101{
+  transform-origin:left;
+}
+.z101:hover{
+  -webkit-transform:scalex(1.2);
+}
+.z10 h5 a{
+  color:black;
+  font-size:40px;
+}
+.browse-btn{
+  color:#ff9d5c;
+}
+.z4{
+  margin:30px;
+  font-size:60px;
+}
+.z6{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  
+
+}
+.x9{
+  background-image:url(https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGVhZHBob25lc3xlbnwwfHwwfHw%3D&w=1000&q=80);
+  width:500px;
+  height:400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius:30px;
+  
+  
+}
+.x1{
+  background-color:white;
+  margin:-10px;
+  margin-top:-20px;
+  padding:40px;
+  padding-top:150px;
+}
+.x5{
+  font-size:50px;
+  padding:30px;
+}
+.x6{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.x7{
+  padding:50px;
+  border-radius:20px;
+  
+  
+}
+.x10{
+ 
+  display:none;
+  
+}
+.x9:hover .x10{
+  display:block;
+  color:black;
+  font-size:50px;
+  background-color:rgba(255,165,0,0.4);
+  width:100%;
+  height:100%;
+  border-radius:30px;
+}
+.x12{
+  color:black;
+}
+.x11{
+  padding-top:60%;
+}
+.x121{
+  transition: font-size 0.5s;
+}
+.x121:hover{
+  font-size:53px;
+}
+.x14{
+  text-align:center;
+  color:#ff9d5c;
+  font-size:30px;
+}
+.x15:hover{
+  color:white;
+  background-color:#ff9d5c;
+}
+  
+.x15{
+  border: 2px solid #ff9d5c;
+  border-radius:30px;
+  padding:10px;
+  width:200px;
+  text-align:center;
+  margin-left:42%;
+  transition:background-color 1s;
+
+}
+.y1{
+   background-color:white;
+  margin:-10px;
+  margin-top:-20px;
+  padding:40px;
+  padding-top:150px;
+} 
+.y6{
+  font-size:30px;
+  
+}
+.y7{
+  color:#ff9d5c;
+  font-size:30px;
+}
+.y5{
+  border: 0px solid ;
+  width:40%;
+  
+  
+}
+.y13{
+  border:0px solid;
+  border-radius:2px;
+  height:3px;
+  background-color:rgba(255,165,0,0.4);
+}
+.y12 span{
+  color:#ff9d5c;
+}
+.y141{
+  background-color:#ff9d5c;
+  width:60%;
+  height:4px;
+}
+.y142{
+  background-color:#ff9d5c;
+  width:89%;
+  height:3px;
+}
+.y143{
+  background-color:#ff9d5c;
+  width:95%;
+  height:3px;
+}
+.y12{
+  font-size:20px;
+}
+.y3{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.y10{
+  width:500px;
+}
+.w1{
+   background-color:white;
+  margin:-10px;
+  margin-top:-20px;
+  padding:40px;
+  padding-top:150px;  
+}
+.w6{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.w8{
+  position:relative;
+  overflow:hidden;
+  border-radius:10px;
+}
+.w9{
+  transition: transform 1s;
+}
+.w8:hover .w9{
+  transform:scale(1.2);
+}
+.w8:hover .w10 p a{
+  text-decoration:underline;
+}
+.w10{
+  position: absolute;
+  bottom:0px;
+  left:10px;
+}
+.w5{
+  font-size:50px;
+}
+.w111{
+  color:white;
+}
+.w10{
+  font-size:25px;
+}
+.w11{
+  border: 0px solid red;
+  background-color:#ff9d5c;
+  padding:10px;
+  border-radius:30px;
+  width:50px;
+  transition:background-color 1s;
+}
+.w11:hover{
+  background-color:white;
+  color:#ff9d5c;
+}
+.w10{
+  color:white;
+}
+.w11:hover .w10 p{
+  color:#ff9d5c;
+}
+.n1{
+   background-color:black;
+  margin:-10px;
+  
+  margin-top:-20px;
+  padding:70px;
+    
+  color:white;
+}
+.n2{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.n5{
+  color:#ff9d5c;
+  font-size:40px;
+}
+.n3{
+  width:30%;
+  padding:50px;
+}
+.n6{
+  font-size:20px;
+  margin-top:-10px;
+}
+.n7{
+  font-size:30px;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.n9{
+  font-size:25px;
+}
+.n10{
+  margin:40px;
+  padding:15px;
+  border:0px;
+  background-color:#ff9d5c;
+  border-radius:50px;
+}
+.n11{
+  margin:40px;
+  padding:15px;
+  border: 1px solid white;
+  border-radius:50px;
+}
+.n11{
+  transition: color 1s;
+}
+.n9:hover .n11{
+  color:orange;
+}
+.q1:hover{
+  transform: scaleX(-1);
+}
+.q2:hover{
+  transform: scaleX(-1);
+}
+.q3:hover{
+  transform: scaleX(-1);
+}
+.q4:hover{
+  transform: scaleX(-1);
+}
+.q5:hover{
+  transform: scaleX(-1);
+}
+.q1,.q2,.q3,.q4,.q5{
+  transition:transform 1s;
+}
+#back-top{
+  background-color:#ff9d5c;
+  width:10px;
+  height:20px;
+  padding:20px;
+  border-radius:70%;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+@media (max-width: 970px) {
+  .n2 ,.z6{
+    flex-direction: column;
+  }
+  .z8,#z81,#z82,#z83,#z84{
+    border:0px solid grey;
+  }
+}
+@media(max-width:600px){
+  .w8{
+    width:450px;
+  }
+  
+}
+
+</style>
+
+</head>
+<header id="a1">
+  <div class="a1">
+    <div class="a2">
+      <div class="a3">
+        <div class="a4">
+          <div class="b1">
+            <a href="#a1">
+              CALVINO.
+            </a>
+          </div>
+          <div class="b2">
+            <div id="nav">
+              <div class="t1"><a href="#" >HOME</a></div>
+              <div class="t1"><a href="#" >WORK</a></div>
+              <div class="t1"><a href="#" >SERVICE</a></div>
+              <div class="t123"><a href="#" >BLOG</a>
+                <div class="sub">
+                  <div class="sub1"><a href="#" style="color:orange">BLOG</a></div>
+                  <div class="sub1" style="color:orange"><a href="#" style="color:orange">BLOG DETAILS</a></div>
+                  <div class="sub1" style="color:orange"><a href="#" style="color:orange">ELEMENTS</a></div>
+                  </div>
+                </ul></div>
+              <div class="t1"><a href="#" >CONTACT</a></div>
+          </div>
+            </div>
+            <div class="b3">
+              <a href="#" class="c1">Let's Talk</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<body>
+  <div class="a11">
+    <div class="a12">
+      <div class="a13">
+        <div class="a14">
+          <div class="a15">
+            <img src="https://preview.colorlib.com/theme/calvin/assets/img/hero/xempolye.png.pagespeed.ic.zBM4C3aZP5.webp">
+          </div>
+        </div>
+        <div class="b11">
+          <div class="b12">
+            <h1>My name is Calvin.<br> Digital Product Designer</h1>
+            <p>Head of design at Calvino</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="a21">
+    <div class="a22">
+      <div class="a23">
+        <div class="a24">
+          <div class="a25">
+            <p>Design For</p>
+            <span>Web & Mobile</span>
+          </div>
+        </div>
+        <div class="b21">
+          <div class="b22">
+            
+              <p>Phone</p>
+              <span>+10 (67) 367-9034</span>
+            </div>
+        </div>
+            <div class="b24">
+              <div class="b25">
+                <p>Drop your Message</p>
+                <span><a href ="#" class="mail">calvino90@gmail.com</a></span>
+              </div>
+              <div class="b26">
+                <img src="https://preview.colorlib.com/theme/calvin/assets/img/gallery/xemail-icon.png.pagespeed.ic.yAqvkS6N4u.webp">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<section class="z1">
+  <div class="z2">
+    <div class="z3">
+      <div class="z4">
+        <div class="z5">
+          <h2 >My Experties</h2>
+        </div>
+      </div>
+    </div>
+    <div class="z6">
+      
+        <div class="z8" id="z81">
+          <div class="z9">
+            <img src="https://preview.colorlib.com/theme/calvin/assets/img/icon/services2.svg">
+          </div>
+          <div class="z10">
+            <h5><a href="#">Strategy & Direction</a></h5>
+<p>Understand First. Lorem ipsum dolor sit amet,
+consectetur adipisicing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="browse-btn"><div class="z101">Head of design at Calvino</div></a>
+          </div>
+        
+      </div>
+      
+        <div class="z8" id="z82">
+          <div class="z9">
+            <img src="https://preview.colorlib.com/theme/calvin/assets/img/icon/services2.svg">
+          </div>
+          <div class="z10">
+            <h5><a href="#">Strategy & Direction</a></h5>
+<p>Understand First. Lorem ipsum dolor sit amet,
+consectetur adipisicing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua.</p>
+<a href="#" class="browse-btn"><div class="z101">Head of design at Calvino</div></a>
+          </div>
+      
+      </div>
+      
+        <div class="z8" id="z83">
+          <div class="z9">
+            <img src="https://preview.colorlib.com/theme/calvin/assets/img/icon/services2.svg">
+          </div>
+          <div class="z10">
+            <h5><a href="#">Strategy & Direction</a></h5>
+<p>Understand First. Lorem ipsum dolor sit amet,
+consectetur adipisicing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua.</p>
+<a href="#" class="browse-btn"><div class="z101">Head of design at Calvino</div></a>
+          </div>
+        
+      </div>
+      
+        <div class="z8" id="z84">
+          <div class="z9">
+            <img src="https://preview.colorlib.com/theme/calvin/assets/img/icon/services2.svg">
+          </div>
+          <div class="z10">
+            <h5><a href="#">Strategy & Direction</a></h5>
+<p>Understand First. Lorem ipsum dolor sit amet,
+consectetur adipisicing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua.</p>
+<a href="#" class="browse-btn"><div class="z101">Head of design at Calvino</div></a>
+          </div>
+        </div>
+     
+    </div>
+  </div>
+</section>
+<section class="x1">
+  <div class="x2">
+    <div class="x3">
+      <div class="x4">
+        <div class="x5">
+          <h2>My Works</h2>
+          </div>
+        </div>
+      </div>
+    <div class="x6">
+      <div class="x7">
+          <div class="x9">
+            <div class="x10">
+              <div class="x11">
+                <a href="#" class="x12"><div class="x121">Strategy & Direction</div></a>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="x7">
+          <div class="x9">
+            <div class="x10">
+              <div class="x11">
+              <a href="#" class="x12"><div class="x121">Strategy & Direction</div></a>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="x7">
+          <div class="x9">
+            <div class="x10">
+              <div class="x11">
+              <a href="#" class="x12"><div class="x121">Strategy & Direction</div></a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="x7">
+          <div class="x9">
+            <div class="x10">
+              <div class="x11">
+              <a href="#" class="x12"><div class="x121">Strategy & Direction</div></a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="x13">
+      <div class="x14">
+        <div class="x15">MORE WORK</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="y1">
+  <div class="y2">
+    <div class="y3">
+      
+        <div class="y5">
+          <div class="y6">
+            <h2>About Me</h2>
+</div>
+<p>In the mean time shall soon find out the cause of this: What
+was the epicurus towards their children; each of these can
+have a chain of not to have been taken in the broad plain in
+what is the reason why</p>
+<p class="y7">"What was the epicurus towards their children; each of these can have a chain.</p>
+</div>
+
+      
+          <div class="y10">
+            <div class="y11">
+              <div class="y12">
+                <p>User Interface Design</p><span>60%</span>
+</div>
+              <div class="y13">
+                <div class="y141">
+                </div>
+              </div>
+              <div class="y11">
+              <div class="y12">
+                <p>User Experience</p><span>89%</span>
+</div>
+              <div class="y13">
+                <div class="y142">
+                </div>
+              </div>
+                <div class="y11">
+              <div class="y12">
+                <p>Illustration</p><span>95%</span>
+</div>
+              <div class="y13">
+                <div class="y143">
+                </div>
+              </div>
+
+</div>
+</div>
+</div>
+            </section>
+<section class="w1">
+  <div class="w2">
+    <div class="w3">
+      <div class="w4">
+        <div class="w5">
+          <h2>Latest News</h2>
+        </div>
+      </div>
+    </div>
+    <div class="w6">
+      <div class="w7">
+        <div class="w8">
+          <div class="w9">
+            <img src="https://preview.colorlib.com/theme/calvin/assets/img/gallery/xhome-blog1.png.pagespeed.ic.I2U4ILIwPP.webp" class="w91">
+          </div>
+          <div class="w10">
+            <p><div class="w11">Tips</div><span class="w111">
+              12 March I by Alan</span></p>
+            <p><a href="#">The Best SPA Salons For Your Relaxation</a></p>
+            </div>
+</div>
+</div>
+      <div class="w7">
+        <div class="w8">
+          <div class="w9">
+            <img src="https://preview.colorlib.com/theme/calvin/assets/img/gallery/xhome-blog2.png.pagespeed.ic.Spsxmf_jSP.webp" class="w91">
+          </div>
+          <div class="w10">
+            <p><div class="w11">Tips</div><span class="w111">
+              12 March I by Alan</span></p>
+            <p><a href="#">The Best SPA Salons For Your Relaxation</a></p>
+            </div>
+</div>
+</div>
+    </div>
+  </div>
+      </section>
+   <footer>
+     <div class="n1">
+       <div class="n2">
+         <div class="n3">
+           <div class="n4">
+             <div class="n5">
+               <p>Calvino.</p>
+             </div>
+             <div class="n6">
+           <p>
+             In the mean time shall soon find out the cause of this: What
+was the epicurus towards their children.
+</p>
+             </div>
+          
+           <div class="n7">
+             <div class="q5"><a href="#"><i class="fab fa-twitter"></i></a></div>
+             <div class="q1"><a href="#"><i class="fab fa-facebook-f"></i></a></div>
+<div class="q2"><a href="#"><i class="fab fa-pinterest-p"></i></a></div>
+<div class="q3"><a href="#"><i class="fas fa-globe"></i></a></div>
+  <div class="q4"><a href="#"><i class="fab fa-instagram"></i></a></div>
+           </div>
+           </div>
+         </div>
+         <div class="n8">
+           <div class="n9">
+             <a href="#" class="n10">Let's Talk</a>
+<a href="#" class="n11">Download CV</a>
+           </div>
+         </div>
+       </div>
+       <div id="back-top">
+<a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+</div>
+     </div>
+     <script src="https://kit.fontawesome.com/63f9422276.js" crossorigin="anonymous"></script>
+      </footer>
+</html>
